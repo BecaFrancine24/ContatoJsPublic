@@ -1,7 +1,7 @@
 CREATE DATABASE db_mvc DEFAULT CHARACTER SET utf8;
 USE contatoJS;
 
-CREATE TABLE `conatos` (
+CREATE TABLE `contatos` (
     `id` int NOT NULL AUTO_INCREMENT,
     `nome` varchar(100) DEFAULT NULL,
     `idade` number(3) DEFAULT NULL,
